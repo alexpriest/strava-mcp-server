@@ -1,6 +1,14 @@
-# Strava MCP Server
+# strava-mcp-server
 
-MCP server for Strava — exposes recent activities, activity details, athlete profile, athlete stats, and activity zones to claude.ai (or any MCP-compatible client) over Streamable HTTP with OAuth 2.1.
+A Strava MCP server over Streamable HTTP and OAuth 2.1, installable as a claude.ai connector.
+
+## Status
+
+Shipped — deployed on Railway as a claude.ai custom connector.
+
+## License
+
+Not licensed for reuse.
 
 Built on the same pattern as the [Hevy MCP server](../hevy-mcp-server) — TypeScript + Express + `@modelcontextprotocol/sdk`, deployable to Railway, claude.ai-compatible.
 
